@@ -11,11 +11,11 @@ int  getop(char [], char []);
 void push(int);
 int  pop();
 
+// declare functions implemented in assembly
 extern int op_add(int, int);
 extern int op_mul(int, int);
 extern int op_sub(int, int);
 
-/* revise the calculator to use getline to read an entire input line */
 int main()
 {
     int type, r, _;
