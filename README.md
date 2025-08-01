@@ -12,4 +12,6 @@ So, fasm assembler and C compiler are needed to compile the `ops.asm` and `main.
 ```bash
 ./build.sh
 ./main
+17 2 * 35 +
+    69
 ```
